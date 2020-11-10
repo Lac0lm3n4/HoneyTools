@@ -4,6 +4,8 @@
 
 # Instalación
 
+# git clone https://github.com/Lac0lm3n4/HoneyTools.git
+
 # cd HoneyTools
 
 # chmod +x honeytools.sh
