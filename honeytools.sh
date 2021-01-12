@@ -632,6 +632,7 @@ elif [[ $opcion == "00" || $opcion == "0" ]]; then
 
 fi
 menu
+
 }
 
 	#-----Detectores------#
