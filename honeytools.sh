@@ -191,6 +191,7 @@ echo -e "\e[0;35m[\e[0m\e[0;92m27\e[0m\e[0;35m]\e[0m \e[0;92mJager (obtiene ubic
 echo -e "\e[0;35m[\e[0m\e[0;92m28\e[0m\e[0;35m]\e[0m \e[0;92mCamPhish (Saca fotos del objetivo)\e[0m"
 echo -e "\e[0;35m[\e[0m\e[0;92m29\e[0m\e[0;35m]\e[0m \e[0;92mGENTINY Para camuflar enlace phishing\e[0m"
 echo -e "\e[0;35m[\e[0m\e[0;92m30\e[0m\e[0;35m]\e[0m \e[0;92mURLCADIZ Para camuflar enlace phishing\e[0m"
+echo -e "\e[0;35m[\e[0m\e[0;92m31\e[0m\e[0;35m]\e[0m \e[0;92mScorphish (Phishing grafico y bueno)\e[0m"
 echo -e "\e[0;31m[\e[0m\e[0;92m00\e[0m\e[0;31m]\e[0m \e[0;92mVOLVER\e[0m"
 read -p "c0lm3n4~#: " opcion
 #-----------OPCIONES--------------#
@@ -253,7 +254,9 @@ elif [[ $opcion == "28" ]]; then
 elif [[ $opcion == "29" ]]; then
 	git clone https://github.com/AngelSecurityTeam/GenTiny.git	
 elif [[ $opcion == "30" ]]; then
-	git clone https://github.com/PerezMascato/URLCADIZ.git			
+	git clone https://github.com/PerezMascato/URLCADIZ.git	
+elif [[ $opcion == "31" ]]; then
+	git clone https://github.com/error404-notfound/ScorpFishV2.git	
 elif [[ $opcion -eq 0 ]]; then
 	menu
 fi
@@ -465,6 +468,7 @@ echo -e "\e[0;35m[\e[0m\e[0;92m38\e[0m\e[0;35m]\e[0m \e[0;92mTIKTOKOSINT\e[0m"
 echo -e "\e[0;35m[\e[0m\e[0;92m39\e[0m\e[0;35m]\e[0m \e[0;92mFacedump (Saca informacion de gente de facebook)\e[0m"
 echo -e "\e[0;35m[\e[0m\e[0;92m40\e[0m\e[0;35m]\e[0m \e[0;92mInfoWeb (extrae de todo un poco de una web) \e[0m"
 echo -e "\e[0;35m[\e[0m\e[0;92m41\e[0m\e[0;35m]\e[0m \e[0;92mDoxinkong v2\e[0m"
+echo -e "\e[0;35m[\e[0m\e[0;92m42\e[0m\e[0;35m]\e[0m \e[0;92mDoxing Internacional\e[0m"
 echo -e "\e[0;31m[\e[0m\e[0;92m00\e[0m\e[0;31m]\e[0m  \e[0;92mVOLVER\e[0m"
 read -p "c0lm3n4~#: " opcion
 
@@ -549,7 +553,9 @@ elif [[ $opcion == "39" ]]; then
 elif [[ $opcion == "40" ]]; then
 	git clone https://github.com/Err0r-ICA/InfoWeb.git	
 elif [[ $opcion == "41" ]]; then
-	git clone https://github.com/ctoANG/Doxikong-V2			
+	git clone https://github.com/ctoANG/Doxikong-V2	
+elif [[ $opcion == "42" ]]; then
+	git clone https://github.com/error404-notfound/Doxing-Error404.git	
 elif [[ $opcion -eq 0 ]]; then
 	menu
 fi
